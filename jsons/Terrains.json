@@ -36,8 +36,21 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	
-    {
+	{
+		"name": "Great Blue Hole", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"science": 3,
+		"culture": 1,
+		"movementCost": 1,
+		"occursOn": ["Coast"],
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [1] to [2] [Jungle] tiles",
+			    "Tile provides yield without assigned population", "Grants [+30 Science] to the first civilization to discover it"],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
         "name": "Old Faithful",
         "type": "NaturalWonder",
         "science": 4,
