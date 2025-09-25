@@ -51,6 +51,53 @@
 		"weight": 10
 	},
 	{
+		"name": "Lake Baikal", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 1,
+		"faith": 1,
+		"occursOn": ["Tundra"],
+		"uniques": ["Comment [Point of Interest]", "Fresh water", "Must be adjacent to [2] to [6] [Tundra] tiles",
+			"Must be adjacent to [0] to [2] [Hill] tiles",
+			"Occurs in groups of [1] to [2] tiles", "Must be adjacent to [0] [Coast] tiles", "Tile provides yield without assigned population", "Grants [+20 Faith] to the first civilization to discover it"],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Dead Sea", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"culture": 3,
+		"faith": 2,
+		"occursOn": ["Desert"],
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [2] to [5] [Desert] tiles",
+			    "Must be adjacent to [1] to [3] [Water] tiles",
+			    "Must be adjacent to [0] to [1] [Hill] tiles", 
+			    "Tile provides yield without assigned population", "Grants [Medic] ([Can heal faster]) to adjacent [{Military} {Land}] units for the rest of the game"],
+		"turnsInto": "Desert",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Old Faithful", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"science": 3,
+		"culture": 2,
+		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain"],
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [4] [Mountain] tiles",
+			"Must be adjacent to [3] to [6] [Elevated] tiles",
+			"Must be adjacent to [2] to [6] [Plains] tiles",
+			"Must be adjacent to [0] to [3] [Desert] tiles",
+			"Must be adjacent to [0] to [3] [Tundra] tiles", "Tile provides yield without assigned population", "Grants [+20 Culture] to the first civilization to discover it"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
         "name": "Old Faithful",
         "type": "NaturalWonder",
         "science": 4,
@@ -68,6 +115,37 @@
         "unbuildable": true,
         "weight": 10
     },
+	{
+		"name": "Vinicunca", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"food": 2,
+		"production": 2,
+		"culture": 1,
+		"occursOn": ["Grassland", "Mountain"],
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [3] [Mountain] tiles",
+			"Must be adjacent to [2] to [4] [Elevated] tiles",
+			"Must be adjacent to [1] to [3] [Jungle] tiles",
+			"Tile provides yield without assigned population", "Grants [+5 Culture, +5 Faith, +30 Gold] to the first civilization to discover it"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "El Dorado", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"culture": 5,
+		"overrideStats": true,
+		"occursOn": ["Plains", "Grassland"],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [4] to [6] [Jungle] tiles",
+			"Tile provides yield without assigned population", "Grants [+100 Gold] to the first civilization to discover it"],
+		"weight": 10
+	},
     {
         "name": "El Dorado",
         "type": "NaturalWonder",
@@ -84,6 +162,50 @@
         ],
         "weight": 2
     },
+	{
+		"name": "Mount Roraima", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"food": 3,
+		"production": 1,
+		"faith": 1,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Comment [Point of Interest]", "Fresh water", "Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Jungle] tiles",
+			"Tile provides yield without assigned population", "Grants [+20 Science, +10 Faith] to the first civilization to discover it"],
+		"weight": 10
+	},
+	{
+		"name": "Perito Moreno", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"science": 3,
+		"culture": 1,
+		"gold": 3,
+		"occursOn": ["Snow"],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Comment [Point of Interest]", "Fresh water", "Must be adjacent to [1] to [3] [Mountain] tiles", "Must be adjacent to [0] to [3] [Coast] tiles",
+			"Tile provides yield without assigned population", "Grants [+10 Science, +75 Gold] to the first civilization to discover it"],
+		"weight": 10
+	},
+	{
+		"name": "Fountain of Youth", //from The-Great-Unciv-Rework
+		"type": "NaturalWonder",
+		"happiness": 3,
+                "science": 2,
+		"overrideStats": true,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Comment [Point of Interest]", "Fresh water", "Must be adjacent to [0] [Coast] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population"],
+		"weight": 10
+	},
     { // This will count as "Fresh water" in civ 6
         "name": "Fountain of Youth",
         "type": "NaturalWonder",
