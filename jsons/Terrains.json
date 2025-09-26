@@ -855,23 +855,20 @@
 		"weight": 10
 	},
     {
-        "name": "Lupo Irpino",
-        "text": "Simbolo fondativo delle genti irpine, derivante dal termine “hirpus” (lupo in osco).",
-        "uniqueTo": "Any",
-        "cost": 200,
-        "tileType": "Land",
-        "tileYield": {
-            "Food": 2,
-            "Culture": 2,
-            "Happiness": 2
-        },
-        "friendBonusUniques": [
-            "[+1 Happiness] <permanent to first discoverer>",
-            "[+Promotion: Strength] <to units passing nearby>"
-        ],
-        "terrain": "Hill",
-        "turnsInto": "Hill",
-        "category": "Animale totemico / Montagna sacra"
-    }
-
+		"name": "Lupo Irpino",
+		"type": "NaturalWonder",
+		"food": 2,
+		"culture": 1,
+		"Happiness": 2
+		"occursOn": ["Plains", "Grassland"],
+		"turnsInto": "Hill",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [2] [Hill] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Grants [+50 Faith] to the first civilization to discover it",
+			"Grants [Lupo Irpino] ([Can pass through impassable tiles]) to adjacent [{Military} {Land}] units for the rest of the game", "Tile provides yield without assigned population"],
+		"weight": 10
+	}
 	]
