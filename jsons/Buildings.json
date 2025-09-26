@@ -79,7 +79,7 @@
         "isWonder": true,
 	"civilopediaText": [ {"text": "The Sphinx is a large structure located beside the Great Pyramids, facing east so that it is always facing the sunrise.. The sphinx is a mythical creature that is shared among many different cultures across the world, similar to that of dragons. Current theories suggest that the Sphinx was built so that the tombs and templesbehind it were defended from evil."}],
 	"greatPersonPoints": { "Great Engineer": 1 },
-        "uniques": [ "[+2 Faith, +2 Culture] from every [Wonder] <in this city>", "[+1 Faith] from every [Quarry]","Must be next to [River]","Provides [2] [Tourism] <if [Nobles and Merchants] is enabled>"],
+        "uniques": [ "[+2 Faith, +2 Culture] from every [Wonder] <in this city>", "[+1 Faith] from every [Quarry]","Must be next to [River]"],
         "requiredTech": "Mining",
         "quote": "'There are various eyes. Even the Sphinx has eyes: and as a result there are various truths, and as a result there is no truth' - Friedrich Nietzsche"
     },
@@ -87,7 +87,7 @@
         "name": "Gunung Padang", // MOLTO ANTICA, TENERE?
         "isWonder": true,
 	"food": 4,
-        "uniques": [ "[+1] population [in this city] <upon entering a Golden Age>", "Must be on [Hill]","Provides [2] [Tourism] <if [Nobles and Merchants] is enabled>"],
+        "uniques": [ "[+1] population [in this city] <upon entering a Golden Age>", "Must be on [Hill]"],
         "requiredTech": "Writing",
         "quote": " On the mountain top Goenoeng Padang, near Goenoeng Melati, a succession of 4 terraces, connected by steps of rough stone, paved with rough flat stones and decorated with numerous sharp and columnar upright andesite stones. On each terrace a small mound, probably a grave, surrounded and covered with stones and topped with 2 pointed stones.' - Rogier Verbeek"
     },
@@ -98,51 +98,51 @@
 	"civilopediaText": [ {"text": "Karnak is a temple comlex located in Luxor, Egypt. Here lies the work of 30 generations of pharaohs, each one adding to the temples over the cource of heir reign. Gods from the stories of the ancient pantheons of Egypt, to the ashes of Aten, to the sermons of Coptic Church are all present here. Currently it is the second most visited landmark in Egypt, with only the Great Pyramids overtaking it."}],
 	"culture" : 2,
 	"greatPersonPoints": { "Great Artist": 1 },
-        "uniques": [  "[+2 Faith] from [Flood plains] tiles [in this city]", "Must have an owned [Flood plains] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "[+3 Faith] from [Flood plains] tiles [in this city]", "Must have an owned [Flood plains] within [2] tiles"],
         "requiredTech": "Calendar",
         "quote": "'Man, know yourself… and you shalt know the gods.' - Inscription at Karnak"
     },
 
 	{
-        "name": "Mesa Verde",
+        "name": "Mesa Verde", // TENERE
         "isWonder": true,
 	"civilopediaText": [ {"text": "A large mesa located in Colorado,USA, Mesa Verde is the location of possibly one of the first pueblo settlments in the Mojave Desert. The people who settled here would late grow into thr Pueblo people, who carved a trade network accross the entire South west of thr modern-day United States. The cliff-dwelling people dispersed in the 1200's, resulting in the site being deeply ingraned in the folklore of the surrounding cultures, coloniser and natives alike."}],
 	"culture" : 2,
 	"greatPersonPoints": { "Great Engineer": 1 },
-        "uniques": [  "[+1 Food] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "[+1 Food] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]"],
         "requiredTech": "Trapping",
         "quote": "'The government never gave anybody anything. You make these homesteads go, you'll have earned every acre of it. You just can't make 'em go on the Mesa Verde!' - McLintock!"
     },
 
 	{
-        "name": "Nazca Geoglyphs",
+        "name": "Nazca Geoglyphs", // TENERE
         "isWonder": true,
 	"civilopediaText": [ {"text": "Carved in the rock of the Nazca Desert, these markings have lead to great speculation worldwide. Some of the smaller lines are most likely just water collecting ducts, but the purpose of the larger geoglyphs is what makes the site so interesting. Patterns and depictions of many different animals cover the land, so large that planes and satelites are needed to fully observe them. We still do not know the purpose of these geoglyphs, and we are constantly discovering new structures in the area, meaning this site is constantly experiencing new breakthroughs."}],
 	"culture" : 2,
 	"faith" : 2,
-        "uniques": [  "[+4 Culture] <after discovering [Flight]>","[+2 Science] from every [University]","Must have an owned [Mountain] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "[+4 Culture] <after discovering [Flight]>","[+2 Science] from every [University]","Must have an owned [Mountain] within [2] tiles"],
         "requiredTech": "Calendar",
         "quote": "'If the Nazca Lines were made by humans for the gods, these figures were made by humans for humans.' - Luis Jaime Castillo"
     },
 
 	{
-        "name": "Temple of Obelisks",
+        "name": "Temple of Obelisks", // TENERE???
         "isWonder": true,
 	"civilopediaText": [ {"text": "The Temple of Obelisks are a large temple comlex in the ruins of the old Phonecian city of Byblos. Here, as the name suggests, are a large number of obelisks, all from different pantheors of gods, event including some ancient egypthian gods too. The site is now a locaton of national pride, as it is the tourim poster-child for Lebanon, with this wonder aloe generating significant amounts of the tourism income for the country."}],
 	"culture" : 1,
 	"faith" : 2,
-        "uniques": [  "[+1 Food] from [Oasis] tiles [in this city]","[+1 Food] from [Lakes] tiles [in this city]","[+1 Food] from every [Monument]", "Must be next to [Coast]","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "[+1 Food] from [Oasis] tiles [in this city]","[+1 Food] from [Lakes] tiles [in this city]","[+1 Food] from every [Monument]", "Must be next to [Coast]"],
         "requiredTech": "Sailing",
         "quote": "Nothing beside remains. Round the decay \nOf that colossal Wreck, boundless and bare \nThe lone and level sands stretch far away.' - Ozymandias, Percy Bysshe Shelley"
     },
 
 	{
-        "name": "Wurdi Youang",
+        "name": "Wurdi Youang", // TENERE???
         "isWonder": true,
 	"civilopediaText": [ {"text": "located in Victoria,Australia, this megalithic site was built by native Australian Aboriginals. Its purpose is most likely similar to other megalithic sites such as Stonehenge, as it is alignes to the Solstices and the Equinoxes. Currently we do not know its exact age, but current estimates say that it could be around 11,000 years old, making it 6,000 years older than the oldest parts of Stonehenge. "}],
 	"culture" : 1,
 	"science" : 1,
-        "uniques": [ "[+1 Faith] from [Hill] tiles [in this city]","[+1 Science] from [Plantation] tiles [in all cities] <before founding a religion>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [ "[+1 Faith] from [Hill] tiles [in this city]","[+1 Science] from [Plantation] tiles [in all cities] <before founding a religion>"],
         "requiredTech": "Pottery",
         "quote": "The more you know, the less you need.' - Aboriginal Saying"
     },
@@ -150,45 +150,23 @@
 	// Classical Era
     
 	{
-        "name": "Basilica de Leptis Magna",
+        "name": "Basilica de Leptis Magna", // TENERE
         "isWonder": true,
 	"culture" : 2,
 	"greatPersonPoints": { "Great Artist": 1 },
-        "uniques": [  "Free [Settler] appears", "[+100]% Production when constructing [Settler] units [in this city]", "Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "Free [Settler] appears", "[+100]% Production when constructing [Settler] units [in this city]", "Must be next to [Coast]"],
         "requiredTech": "Optics",
         "quote": "'Be harmonious, enrich the soldiers, scorn all others' - Septimius Severus"
     },
 	
 	{
-        "name": "Buddhas of Bamiyan",
+        "name": "Buddhas of Bamiyan", // TENERE
         "isWonder": true,
 	"culture" : 3,
 	"greatPersonPoints": { "Great Engineer": 2 },
-        "uniques": [  "[+1 Faith] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "uniques": [  "[+1 Faith] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]"],
         "requiredTech": "Engineering",
         "quote": "'Even death is not to be feared by one who has lived wisely.' - Siddharta Guatama"
-    },
-
-	{
-        "name": "Cairo Citadel",
-        "isWonder": true,
-	"greatPersonPoints": { "Great Engineer": 1 },
-        "uniques": ["[+20]% Strength <for [All] units> <vs cities> ","[+10]% Strength <for [All] units> <when fighting in [Desert] tiles>", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
-        "requiredTech": "Engineering",
-        "quote": "'No one can defeat a nation whose youth is awakened' - Salah ad-Din Yusuf ibn-Ayyub"
-    },
-
-	{
-        "name": "Castel Sant' Angelo",
-        "isWonder": true,
-	"culture" : 1,
-	"cityStrength": 5,
-        "cityHealth": 30,
-	"percentStatBonus": {"faith": 20},
-	"greatPersonPoints": { "Great General": 1 },
-        "uniques": ["[+5 Faith, +1 Gold] from [Fort] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
-        "requiredTech": "Construction",
-        "quote": "'Then war broke out in heaven. Michael and his angels fought against the dragon, and the dragon and his angels fought back. But he was not strong enough, and they lost their place in heaven' - Revelation 12:7-8"
     },
 
 	{
@@ -362,5 +340,25 @@
         "quote": "'Living at risk is jumping off the cliff and building your wings on the way down' - Ray Bradbury"
     },
 //Medieval
-   
+   	/* {
+        "name": "Cairo Citadel", // TENERE ma MEDIOEVO
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+20]% Strength <for [All] units> <vs cities> ","[+10]% Strength <for [All] units> <when fighting in [Desert] tiles>", "Must be next to [Desert]"],
+        "requiredTech": "Engineering",
+        "quote": "'No one can defeat a nation whose youth is awakened' - Salah ad-Din Yusuf ibn-Ayyub"
+    },
+
+	{
+        "name": "Castel Sant' Angelo", // TENERE ma RINACIMENTO
+        "isWonder": true,
+	"culture" : 1,
+	"cityStrength": 5,
+        "cityHealth": 30,
+	"percentStatBonus": {"faith": 20},
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": ["[+5 Faith, +1 Gold] from [Fort] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Construction",
+        "quote": "'Then war broke out in heaven. Michael and his angels fought against the dragon, and the dragon and his angels fought back. But he was not strong enough, and they lost their place in heaven' - Revelation 12:7-8"
+    }, */
  ]
