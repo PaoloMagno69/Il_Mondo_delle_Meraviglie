@@ -861,7 +861,7 @@
 		"culture": 1,
 		"Happiness": 2
 		"occursOn": ["Plains", "Grassland"],
-		"turnsInto": "Hill",
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [0] [Coast] tiles",
