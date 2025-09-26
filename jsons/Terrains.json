@@ -846,35 +846,14 @@
 		"food": 3,
 		"culture": 2,
 		"Happiness": 2,
-		"defenceBonus": 0.2,
 		"occursOn": ["Ocean"],
 		"uniques": ["Comment [Point of Interest]", "Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [6] [Water] tiles",
-			"Occurs on latitudes from [10] to [67] percent of distance equator to pole",
-			"Occurs in groups of [2] to [2] tiles", "Tile provides yield without assigned population", "Grants [Mobility] ([+1 Movement]) to adjacent [{Military} {Water}] units for the rest of the game"],
+			"Occurs in groups of [2] to [2] tiles", "Tile provides yield without assigned population",  "Grants [+50 culture] to the first civilization to discover it", "Grants [Medic] ([Can heal faster]) to adjacent [{Military} {Water}] units for the rest of the game"],
 		"turnsInto": "Coast",
 		"unbuildable": true,
 		"weight": 10
 	},
-    {
-        "name": "Isola Ichnusa",
-        "text": "Antico nome mitico della Sardegna, “orma del piede”.",
-        "uniqueTo": "Any",
-        "cost": 200,
-        "tileType": "Water",
-        "tileYield": {
-            "Food": 3,
-            "Culture": 2,
-            "Happiness": 2
-        },
-        "friendBonusUniques": [
-            "[+1 Happiness] <permanent to first discoverer>",
-            "[+Promotion: Health] <to units passing nearby>"
-        ],
-        "terrain": "Coast",
-        "turnsInto": "Coast",
-        "category": "Isola leggendaria mediterranea"
-    },
     {
         "name": "Lupo Irpino",
         "text": "Simbolo fondativo delle genti irpine, derivante dal termine “hirpus” (lupo in osco).",
