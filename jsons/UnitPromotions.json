@@ -50,5 +50,42 @@
 	{
 		"name": "Lupo Irpino",
 		"uniques": ["Can pass through impassable tiles", "Double movement in [Hill]", "[+10]% XP gained from combat", "[+20]% Strength <when defending> <in [Friendly Land] tiles>"]
-	}  
+	} ,
+
+// SOTTO SONO TUTTE DA https://github.com/Kurwizimi/More-Wonders/blob/master/jsons/UnitPromotions.json
+{
+        "name": "Great Road",
+        "uniques": ["[+1] Movement"],
+  },
+
+        {
+        "name": "Grand Canal",
+        "uniques": ["[This Unit] heals [10] HP <upon ending a turn in a [Fresh Water] tile>"],
+  },
+	
+        {
+	"name": "Karez Builder",
+	"uniques": ["Can build [Karez] improvements on tiles"],
+  },
+
+	{
+        "name": "Break the Chains",
+        "uniques": ["[+15]% Strength <when defending>"],
+  },
+
+	 {
+	"name": "Grand Aqueduct",
+	"uniques": ["Can build [Aqua Thermae] improvements on tiles"],
+  },
+
+	{
+        "name": "Lest We Forget",
+        "uniques": ["[-20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <when fighting in [Friendly Land] tiles>"],
+  },
+
+	{
+        "name": "Flame of Zoroaster",
+        "uniques": ["[+10]% Strength <vs [Wounded] units>"],
+  }
+	
 ]
