@@ -32,7 +32,7 @@
         "column": 24,
         "row": 4
 	},
-  {
+    {
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <in [Land] tiles>", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -47,8 +47,8 @@
 		"name": "Civilized",
 		"uniques": ["[+25]% Strength <vs [Barbarian] units>", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"] 
 	},
-  
-
-
-  
+	{
+		"name": "Lupo Irpino",
+		"uniques": ["Can pass through impassable tiles", "Double movement in [Hill]", "[+10]% XP gained from combat", "[+20]% Strength <when defending> <in [Friendly Land] tiles>"]
+	}  
 ]
