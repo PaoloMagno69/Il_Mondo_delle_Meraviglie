@@ -291,32 +291,7 @@
         "requiredTech": "Philosophy",
         "quote": "'Like geese who have seen a lake, I listened to the message given by her. Like a bee who has seen full-blown lotuses, the bewildered heart of mine was consoled.' - Poem found in Sigiriya"
     },
-		{
-        "name": "[Sigiriya] [Great Work of Art]",
-		"requiredBuilding": "Museum",
-        "culture": 3,
-        "cost": 1,
-        "uniques": [
-            "Great Work",
-			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
-			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
-			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
-            "Never destroyed when the city is captured <hidden from users>",
-            "Unsellable <hidden from users>",
-			"Only available <in cities with a [Museum]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>",
-			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
-        ],
-		"civilopediaText": [
-			{ "text": "Great Works", "link": "Tutorial/Great Works" },
-			{ "text": "Requires at least one of the following:" },
-			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
-			{ "text": "Artifact", "link": "Resource/Artifact" }
-		]
-    },
-
+		
 	{
         "name": "Xuankong Temple", // DA VERIFICARE
         "isWonder": true,
