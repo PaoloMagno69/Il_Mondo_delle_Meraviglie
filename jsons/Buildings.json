@@ -114,7 +114,7 @@
     },
 
 	{
-        "name": "Karnak", TENERE
+        "name": "Karnak", // TENERE
         "isWonder": true,
 	"civilopediaText": [ {"text": "Karnak is a temple comlex located in Luxor, Egypt. Here lies the work of 30 generations of pharaohs, each one adding to the temples over the cource of heir reign. Gods from the stories of the ancient pantheons of Egypt, to the ashes of Aten, to the sermons of Coptic Church are all present here. Currently it is the second most visited landmark in Egypt, with only the Great Pyramids overtaking it."}],
 	"culture" : 2,
