@@ -1,1 +1,54 @@
+[
+{
+		"name": "Mobility",
+		"prerequisites": ["Shock II", "Drill II", "Targeting I",
+			"Bombardment I", "Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement", "Ignores Zone of Control", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"],
+		"unitTypes": ["Sword", "Gunpowder", "Mounted","Melee Water","Ranged Water","Armored", "Submarine"],
+        "column": 24,
+        "row": 3
+	},
+  	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [+5] HP when healing", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
+        "column": 10, // after scout base
+        "row": 1
+	},
+  {
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"]
+	},
+  {
+		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"uniques": ["[+50]% XP gained from combat", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"]
+	},
+  {
+		"name": "Sentry",
+		"prerequisites": ["Accuracy II", "Barrage II", "Shock II", "Drill II", "Bombardment I", "Targeting I", "Boarding Party I", "Coastal Raider I"],
+		"uniques": ["[+1] Sight", "Can see invisible [Land] units", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"],
+		"unitTypes": ["Sword", "Gunpowder", "Mounted", "Ranged Water", "Siege", "Armored", "Melee Water", "Submarine", "Helicopter"],
+        "column": 24,
+        "row": 4
+	},
+  {
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <in [Land] tiles>", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 4,
+        "row": 1
+	},
+    {
+		"name": "Climber",
+		"uniques": ["Can pass through impassable tiles", "Double movement in [Hill]", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"]
+	},
+	{
+		"name": "Civilized",
+		"uniques": ["[+25]% Strength <vs [Barbarian] units>", "[+10]% XP gained from combat <for [Gran Colombia] Civilizations> <hidden from users>"] 
+	},
+  
 
+
+  
+]
