@@ -1,1 +1,27 @@
+[
 
+ 
+{
+        "name": "Rice Grains", 
+        "gold": 1,
+        "resourceType": "Luxury",
+    },
+
+ {
+        "name": "Frescos", 
+        "gold": 1,
+        "resourceType": "Luxury",
+    },
+
+{
+        "name": "Green Tea Leaves", 
+        "gold": 1,
+        "resourceType": "Luxury",
+    },
+ {
+        "name": "Hit Singles", 
+        "culture": 1,
+        "resourceType": "Luxury",
+    }
+
+]
