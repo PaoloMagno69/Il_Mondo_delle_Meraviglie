@@ -1,1 +1,2193 @@
+ [
+   {
+        "name": "Uffizi", // da Brave-New-World
+        "culture": 2,
+        "specialistSlots": {"Artist": 2},
+        "isWonder": true,
+        "uniques": ["Free [Great Artist] appears","Only available <after adopting [Aesthetics]>"],
+        "requiredTech": "Architecture",
+        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
+    },
+   {
+        "name": "Parthenon", // da Brave-New-World
+        "culture": 6,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Artist": 1},
+        "requiredTech": "Drama and Poetry",
+        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+    },
+   {
+		"name": "Burj Khalifa", // da Wonder-Full
+		"isWonder": true,
+		"culture": 8,
+		"greatPersonPoints": {"Great Engineer": 4},
+		"requiredTech": "Robotics"
+		"quote": "'The tallest building in the world, with a total height of 829.8 m (2,722 ft, or just over half a mile).'"
+	},
 
+
+   // sotto sono tutte da https://github.com/Kurwizimi/More-Wonders/blob/master/jsons/Buildings.json
+
+	// Ancient Era
+	{
+        "name": "Abu Simbel",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "Abu Simbel is a set of two rock temples located in southern Egypt, just off the coast of Lake Nasser. Commisioned by Ramesess II, it commemerates his victory in the Battle of Kadesh."}],
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "[+3 Production] from [Landmark] tiles [in all cities]", "Only available <if [Nobles and Merchants] is not enabled>"],
+        "requiredTech": "Writing",
+        "quote": "'The heads of Rameses II at Abu Simbel and, for that matter, the skyscrapers of New York, have another idea of man.' - John Leonard"
+    },
+		{
+        		"name": "Abu Simbel (Nobles and Merchants)",
+        		"isWonder": true,
+			"culture" : 2,
+			"greatPersonPoints": { "Great Engineer": 1 },
+        		"uniques": [ "[+3 Production] from every [Great Work of Writing]","[+3 Production] from every [Great Work of Art]","[+3 Production] from every [Great Work of Art]","Unavailable <if [Nobles and Merchants] is not enabled>", "Provides [2] [Tourism] <after discovering [Flight]>"],
+        		"requiredTech": "Writing",
+        		"quote": "'The heads of Rameses II at Abu Simbel and, for that matter, the skyscrapers of New York, have another idea of man.' - John Leonard"
+    		},
+
+	{
+        "name": "Baffin Island Inukshuks",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "Inukshuks, also known as Inuksuks, are large humanoid megaliths, built by the First Nations of Canada. They serve a variety of uses, ostly related to navigation, since their large stature can easily mark a hunting ground or food cache from a distance. The place with the most Inukshuks is on Baffin Island, where over 100 are located on just a small peninsula alone. Inukshuks serve as a national icon of the Canadian people, being present on the 2010 Vancouver Winter Olympic Icon."}],
+	"faith" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]", "[+1 Science, +1 Production, +1 Happiness] from [Snow] tiles [in this city]","Must be next to [Tundra]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Trapping",
+        "quote": "'If you are going to walk on thin ice, you might as well dance.' - Inuit Proverb"
+    },
+	
+	{
+        "name": "Bananue Rice Terraces",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "These terraces were carved with minimal equipment over 2000 years ago, and are still currently being used. The Bananue Rice Terraces rely on water from rainforests above it to feed the irrigation systems. The steps that line the terraces are believed to cover a total distance close to half of the worlds equator."}],
+	"culture" : 1,
+	"food" : 4,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [  "Provides [2] [Rice Grains]","Must be next to [Farm]", "Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "The Wheel",
+        "quote": "'The buffalo that arrives late will have to drink muddy water and eat dry grass.' - Vietnamese Proverb"
+    },
+
+	{
+        "name": "Cheomseongdae",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "Cheomseongdae is an obsevatory located in Gyeongju, being the oldest known observatory in Asia. It is believed to have been ordered to be built by Queen Seondeok in order to spread the knowledge of astronomy instead of entrusting it to just one person."}],
+	"culture" : 1,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": [  "[+1 Science] per [3] population [in this city]", "Must not be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Masonry",
+        "quote": "'When it is darkest, men see the stars.' - Ralph Waldo Emerson"
+    },
+
+	{
+        "name": "Chogha Zanbil",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "This Ziggurat is one of the few that we know of that has been built outside of Mesopotamia, as well as being one of the largest ever made. It is dedicated to the deity Inshushinak, and was mostly desroyed when Ashurbanipal of Assyria invaded the Elamite lands."}],
+	"faith" : 4,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [  "Gain a free [Temple] [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Bronze Working",
+        "quote": "'Hand added to hand, and a man's house is built up.' - Sumerian Proverb"
+    },
+
+	{
+        "name": "Gobekli Tepe",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "It is very rare that a single archeaological site can completely change how we view prehistory, but Gobleki Tepe did just that. Located in modern-day Turkiye, this site is the oldest known human settlement, predating the invention of agriculture. It is covered in stone carvings and designs of a culture that have developed settlements before the stories of Gilgamesh or of Amun-Ra. Not only does this site hold major importance in how we veiw humanities origins, but it is also a holy site for many Turkish Sufi's. Many Sufi's still visit the site to pray even after excavations, however they now need to avoid hordes of tourists flocking to the site."}],
+        "uniques": [ "[+1 Production] from [Pasture] tiles [in this city]",
+	             "[+1 Production] from [Quarry] tiles [in this city]",
+	             "[+1 Gold] from [Plantation] tiles [in this city]",
+	             "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Animal Husbandry",
+        "quote": "'Is Gobekli Tepe evidence of a lost advanced civilisation from the ice age, or is it shocking proof that ancient people knew how to put rocks on top of each other?' - Milo Rossi"
+    },
+
+	{
+        "name": "Great Sphinx",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "The Sphinx is a large structure located beside the Great Pyramids, facing east so that it is always facing the sunrise.. The sphinx is a mythical creature that is shared among many different cultures across the world, similar to that of dragons. Current theories suggest that the Sphinx was built so that the tombs and templesbehind it were defended from evil."}],
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "[+2 Faith, +2 Culture] from every [Wonder] <in this city>", "[+1 Faith] from every [Quarry]","Must be next to [River]","Provides [2] [Tourism] <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Mining",
+        "quote": "'There are various eyes. Even the Sphinx has eyes: and as a result there are various truths, and as a result there is no truth' - Friedrich Nietzsche"
+    },
+	{
+        "name": "Gunung Padang",
+        "isWonder": true,
+	"food": 4,
+        "uniques": [ "[+1] population [in this city] <upon entering a Golden Age>", "Must be on [Hill]","Provides [2] [Tourism] <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Writing",
+        "quote": " On the mountain top Goenoeng Padang, near Goenoeng Melati, a succession of 4 terraces, connected by steps of rough stone, paved with rough flat stones and decorated with numerous sharp and columnar upright andesite stones. On each terrace a small mound, probably a grave, surrounded and covered with stones and topped with 2 pointed stones.' - Rogier Verbeek"
+    },
+
+	{
+        "name": "Karnak",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "Karnak is a temple comlex located in Luxor, Egypt. Here lies the work of 30 generations of pharaohs, each one adding to the temples over the cource of heir reign. Gods from the stories of the ancient pantheons of Egypt, to the ashes of Aten, to the sermons of Coptic Church are all present here. Currently it is the second most visited landmark in Egypt, with only the Great Pyramids overtaking it."}],
+	"culture" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "[+2 Faith] from [Flood plains] tiles [in this city]", "Must have an owned [Flood plains] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Calendar",
+        "quote": "'Man, know yourself… and you shalt know the gods.' - Inscription at Karnak"
+    },
+
+	{
+        "name": "Mesa Verde",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "A large mesa located in Colorado,USA, Mesa Verde is the location of possibly one of the first pueblo settlments in the Mojave Desert. The people who settled here would late grow into thr Pueblo people, who carved a trade network accross the entire South west of thr modern-day United States. The cliff-dwelling people dispersed in the 1200's, resulting in the site being deeply ingraned in the folklore of the surrounding cultures, coloniser and natives alike."}],
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [  "[+1 Food] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Trapping",
+        "quote": "'The government never gave anybody anything. You make these homesteads go, you'll have earned every acre of it. You just can't make 'em go on the Mesa Verde!' - McLintock!"
+    },
+
+	{
+        "name": "Nazca Geoglyphs",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "Carved in the rock of the Nazca Desert, these markings have lead to great speculation worldwide. Some of the smaller lines are most likely just water collecting ducts, but the purpose of the larger geoglyphs is what makes the site so interesting. Patterns and depictions of many different animals cover the land, so large that planes and satelites are needed to fully observe them. We still do not know the purpose of these geoglyphs, and we are constantly discovering new structures in the area, meaning this site is constantly experiencing new breakthroughs."}],
+	"culture" : 2,
+	"faith" : 2,
+        "uniques": [  "[+4 Culture] <after discovering [Flight]>","[+2 Science] from every [University]","Must have an owned [Mountain] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Calendar",
+        "quote": "'If the Nazca Lines were made by humans for the gods, these figures were made by humans for humans.' - Luis Jaime Castillo"
+    },
+
+	{
+        "name": "Temple of Obelisks",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "The Temple of Obelisks are a large temple comlex in the ruins of the old Phonecian city of Byblos. Here, as the name suggests, are a large number of obelisks, all from different pantheors of gods, event including some ancient egypthian gods too. The site is now a locaton of national pride, as it is the tourim poster-child for Lebanon, with this wonder aloe generating significant amounts of the tourism income for the country."}],
+	"culture" : 1,
+	"faith" : 2,
+        "uniques": [  "[+1 Food] from [Oasis] tiles [in this city]","[+1 Food] from [Lakes] tiles [in this city]","[+1 Food] from every [Monument]", "Must be next to [Coast]","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Sailing",
+        "quote": "Nothing beside remains. Round the decay \nOf that colossal Wreck, boundless and bare \nThe lone and level sands stretch far away.' - Ozymandias, Percy Bysshe Shelley"
+    },
+
+	{
+        "name": "Wurdi Youang",
+        "isWonder": true,
+	"civilopediaText": [ {"text": "located in Victoria,Australia, this megalithic site was built by native Australian Aboriginals. Its purpose is most likely similar to other megalithic sites such as Stonehenge, as it is alignes to the Solstices and the Equinoxes. Currently we do not know its exact age, but current estimates say that it could be around 11,000 years old, making it 6,000 years older than the oldest parts of Stonehenge. "}],
+	"culture" : 1,
+	"science" : 1,
+        "uniques": [ "[+1 Faith] from [Hill] tiles [in this city]","[+1 Science] from [Plantation] tiles [in all cities] <before founding a religion>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Pottery",
+        "quote": "The more you know, the less you need.' - Aboriginal Saying"
+    },
+
+	// Classical Era
+
+	{
+        "name": "Basilica de Leptis Magna",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "Free [Settler] appears", "[+100]% Production when constructing [Settler] units [in this city]", "Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Optics",
+        "quote": "'Be harmonious, enrich the soldiers, scorn all others' - Septimius Severus"
+    },
+	
+	{
+        "name": "Buddhas of Bamiyan",
+        "isWonder": true,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": [  "[+1 Faith] from [Desert] tiles [in this city]","[+15]% Great Person generation [in all cities]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Engineering",
+        "quote": "'Even death is not to be feared by one who has lived wisely.' - Siddharta Guatama"
+    },
+
+	{
+        "name": "Cairo Citadel",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+20]% Strength <for [All] units> <vs cities> ","[+10]% Strength <for [All] units> <when fighting in [Desert] tiles>", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Engineering",
+        "quote": "'No one can defeat a nation whose youth is awakened' - Salah ad-Din Yusuf ibn-Ayyub"
+    },
+
+	{
+        "name": "Castel Sant' Angelo",
+        "isWonder": true,
+	"culture" : 1,
+	"cityStrength": 5,
+        "cityHealth": 30,
+	"percentStatBonus": {"faith": 20},
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": ["[+5 Faith, +1 Gold] from [Fort] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Construction",
+        "quote": "'Then war broke out in heaven. Michael and his angels fought against the dragon, and the dragon and his angels fought back. But he was not strong enough, and they lost their place in heaven' - Revelation 12:7-8"
+    },
+
+	{
+        "name": "Chóngshèng Sì Sāntǎ",
+        "isWonder": true,
+	"culture" : 1,
+	"cityHealth": 50
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+35]% [Faith] [in this city] <for [15] turns> <upon entering a Golden Age>", "[+10]% [Gold] [in this city] <for [15] turns> <upon entering a Golden Age>","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Horseback Riding",
+        "quote": "'In the absence of a natural disaster we are left again to our own uneasy devices.' - Joan Didion"
+    },
+
+	{
+        "name": "Dà Yùnhé",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["All newly-trained [Land] units [in this city] receive the [Grand Canal] promotion", "Must be on [Fresh Water]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Currency",
+        "quote": "'Traveling - it leaves you speechless, then turns you into a storyteller' - Ibn Battuta"
+    },
+
+	{
+        "name": "El Tajin",
+        "isWonder": true,
+	"culture" : 3,
+	"faith" : 3,
+	"food" : 3,
+	"gold" : 3,
+	"uniques": ["Must have an owned [Jungle] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+	"greatPersonPoints": { "Great Artist": 1 },
+        "requiredTech": "Drama and Poetry",
+        "quote": "'I was at that time like a fledgling swallow living high up in a niche in the eaves, who from time to time peeps out over the top of its nest with its little bright eyes.' - Pierre Loti"
+    },
+
+	{
+        "name": "Gate of the Sun",
+        "isWonder": true,
+	"faith" : 3,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [  "[+2 Faith, +2 Gold] from every [Walls]", "Must have an owned [Mountain] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Mathematics",
+        "quote": "'Trust in dreams, for in them is hidden the gate to eternity' - Khalil Gibran "
+    },
+
+	{
+        "name": "Gonabad Qanat",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["All newly-trained [Worker] units [in all cities] receive the [Karez Builder] promotion", "[Worker] units gain the [Karez Builder] promotion","Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Mathematics",
+        "quote": "'The air is the most marvellous I ever was in, in any city. Mountain air, so sweet, dry and 'preserving', delicious and life-giving.' - Florence Khanum"
+    },
+
+	{
+        "name": "Great Omari Mosque",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+15]% [Faith] [in this city] <after adopting [Tradition Complete]>","[+15]% [Faith] [in this city] <after adopting [Liberty Complete]>","[+15]% [Faith] [in this city] <after adopting [Honor Complete]>","[+15]% [Faith] [in this city] <after adopting [Piety Complete]>","[+15]% [Faith] [in this city] <after adopting [Commerce Complete]>","[+15]% [Faith] [in this city] <after adopting [Rationalism Complete]>","[+15]% [Faith] [in this city] <after adopting [Order Complete]>","[+15]% [Faith] [in this city] <after adopting [Freedom Complete]>","[+15]% [Faith] [in this city] <after adopting [Autocracy Complete]>","[+15]% [Faith] [in this city] <after adopting [Patronage Complete]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Drama and Poetry",
+        "quote": "'Jerusalem is ours as much as yours; indeed, it is even more sacred to us than to you....' - Salah ad-Din Yusuf ibn-Ayyub"
+    },
+
+	{
+        "name": "Hōryū-ji",
+        "isWonder": true,
+	"faith" : 8,
+	"uniques": ["Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Philosophy",
+        "quote": "'...if rulers and bureaucrats believe they are the owners rather than the servants of the law, corruption will follow.' - Prince Shōtoku"
+    },
+
+	{
+        "name": "Mada'in Saleh",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "[+1 Culture] from [Desert] tiles [in this city]","[+1 Gold, +2 Production] from [Oasis] tiles [in this city]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>",],
+        "requiredTech": "Engineering",
+        "quote": "'Let me live in my house by the side of the road,Where the race of men go by; \nThey are good, they are bad; they are weak, they are strong. Wise, foolish.; \n—so am I Then why should I sit in the scorner's seat, Or hurl the cynic's ban? \nLet me live in my house by the side of the road, And be a friend to man.' - Sam Walter Foss"
+    },
+
+	{
+        "name": "Naqsh-e Rostam",
+        "isWonder": true,
+	"faith" : 1,
+	"greatPersonPoints": { "Great General": 2 },
+        "uniques": ["All newly-trained [Military] units [in this city] receive the [Flame of Zoroaster] promotion", "Empire enters golden age", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Horseback Riding",
+        "quote": "'A great god is Ahura Mazda, who created this earth, who created yonder sky, who created man, who created happiness for man, who made Darius king, one king of many, one lord of many.' - Inscription on the tomb of Darius I"
+    },
+
+	{
+        "name": "Nishiyama Onsen Keiunkan",
+        "isWonder": true,
+	"culture" : 1,
+	"happiness" : 1,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": ["[+1 Gold, +1 Happiness] from [Fresh Water] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Drama and Poetry",
+        "quote": "'Nihon San Kotō' - 'The Three Ancient Springs'"
+    },
+
+	{
+        "name": "Taq Kasra",
+        "isWonder": true,
+	"gold" : 2,
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": [ "[+1 Gold] per every [25] [Faith]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Currency",
+        "quote": "'I was flying over the desert solo in an old Hawker Hart biplane and I had my camera round my neck. When I spotted the huge arch standing alone in a sea of sand, I dropped one wing and hung in my straps and let go of the stick while I took aim and clicked the shutter.' - Roald Dahl"
+    },
+
+	{
+        "name": "Temple of Gamla Uppsala",
+        "isWonder": true,
+	"faith" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [ "[+2 Faith, +1 Culture] from [Forest] tiles [in this city]","[+25]% Natural religion spread [in this city]", "Must be next to [Tundra]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Optics",
+        "quote": "'[Freyr] erected a great shrine at Uppsala and made his chief residence there, directing it to all tribute due to him, both lands and chattels. This was the origin of the Uppsala crown goods, which have been kept up ever since.' - Ynglinga Saga"
+    },
+
+	{
+        "name": "Sigiriya",
+        "isWonder": true,
+	"culture" : 2,
+	"food" : 1,
+	"greatPersonPoints": { "Great Engineer": 1 },
+	"uniques": ["Provides [2] [Frescos]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Philosophy",
+        "quote": "'Like geese who have seen a lake, I listened to the message given by her. Like a bee who has seen full-blown lotuses, the bewildered heart of mine was consoled.' - Poem found in Sigiriya"
+    },
+		{
+        "name": "[Sigiriya] [Great Work of Art]",
+		"requiredBuilding": "Museum",
+        "culture": 3,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Museum]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+
+	{
+        "name": "Xuankong Temple",
+        "isWonder": true,
+	"faith" : 1,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [ "[+2 Culture] from [Hill] tiles [in this city] <with [1] to [6] neighboring [Mountain] tiles>", "Must have an owned [Mountain] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Iron Working",
+        "quote": "'Living at risk is jumping off the cliff and building your wings on the way down' - Ray Bradbury"
+    },
+
+	//Medieval
+
+	{
+        "name": "Churches of Lalibela",
+        "isWonder": true,
+	"faith" : 3,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": [  "[+2 Faith] from every specialist [in all cities]", "Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>",],
+        "requiredTech": "Physics",
+        "quote": "'Outside the kingdom of the Lord there is no nation which is greater than any other. God and history will remember your judgment.' - Haile Selassie"
+    },
+
+	{
+        "name": "Dyrehavsbakken",
+        "isWonder": true,
+	"happiness" : 3,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "[+25]% [Happiness] [in this city]", "Must be next to [Fresh Water]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>",],
+        "requiredTech": "Physics",
+        "quote": "'Der er noget om snakken, der er dejligt på Bakken' - Slogan of Dyrehavsbakken"
+    },
+
+	{
+        "name": "Great Canals of Venice",
+        "isWonder": true,
+	"gold" : 4,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": [  "[+2 Gold] from each Trade Route", "Connects trade routes over water", "Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Compass",
+        "quote": "'It is the city of mirrors, the city of mirages, at once solid and liquid, at once air and stone.' - Erica Jon"
+    },
+
+	{
+        "name": "Great Mosque of Aleppo",
+        "isWonder": true,
+	"faith" : 4,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [  "[+5 Production] <in cities following our religion>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Physics",
+        "quote": "'The sword wounds the body, but words wound the soul.' - Zechariah"
+    },
+
+	{
+        "name": "Gulou",
+        "isWonder": true,
+	"culture" : 4,
+        "uniques": [ "[-20]% Gold cost of acquiring tiles [in all cities]", "[-20]% Culture cost of natural border growth [in all cities]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Chivalry",
+        "quote": "'If you put together all the Christians in the world, with their Emperors and their Kings, the whole of these Christians, - aye, and throw in the Saracens to boot, - would not have such power, or be able to do so much as this Kublai, who is Lord of all the Tartars in the world.' - Marco Polo"
+    },
+
+	{
+        "name": "Krak des Chevaliers",
+        "isWonder": true,
+	"culture" : 1,
+	"cityStrength": 10,
+        "cityHealth": 50,
+	"greatPersonPoints": { "Great General": 2 },
+        "uniques": ["[+2 Gold] from [Farm] tiles [in this city]", "Must have an owned [Fort] within [5] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steel",
+        "quote": "'Even Jesus, for three days, died. Who is strong doesn't make the strong.' - Charles de Leusse"
+    },
+
+	{
+        "name": "Leshan Giant Buddha",
+        "isWonder": true,
+	"happiness" : 6,
+	"faith" : 4,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": ["[+1 Happiness] per [3] social policies adopted","Must be next to [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Chivalry",
+        "quote": "'Learn this from water: loud splashes the brook but the oceans depth are calm.' - Siddharta Guatama"
+    },
+
+	{
+        "name": "Malwiya Minaret",
+        "isWonder": true,
+	"percentStatBonus": {"production": 15},
+        "uniques": ["[+2 Faith] <in cities with a [Temple]>", "Gain a free [Mosque] [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Metal Casting",
+        "quote": "'Al-Mutawakkil also built a great cathedral mosque and lavished enormous sums of money on it, making the minaret so high that the voices of the muezzins could be easily heard, and the minaret could be seen at a distance of many parasangs.' - Al-Baladhuri, Kitab Futuh al-Buldan"
+    },
+
+	{
+        "name": "Menara Kudus Mosque",
+        "isWonder": true,
+	"faith": 2,
+        "uniques": [ "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Theology",
+        "quote": "'The world is divided into men who have wit and no religion and men who have religion and no wit.' - ibn Sina"
+    },
+
+	{
+        "name": "Nan Madol",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+1 Culture, +1 Production, +1 Gold] from [Coast] tiles [in this city]","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Civil Service",
+        "quote": "'Out there, on the water, in darkness, out of sight, men encounter the image within them. Or so they suppose.' - Robert Aickman"
+    },
+
+	{
+        "name": "Qhapaq Nan",
+        "isWonder": true,
+	"percentStatBonus": {"gold": 10},
+        "uniques": ["[+3 Gold, +1 Production] from each Trade Route", "All newly-trained [Land] units [in this city] receive the [Great Road] promotion", "Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Machinery",
+        "quote": "'A journey of a thousand miles begins with a single step' - Laozi"
+    },
+
+	{
+        "name": "Rani Ki Vav",
+        "isWonder": true,
+	"happiness" : 2,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "[+20]% growth [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Civil Service",
+        "quote": "'Thousands have lived without love, not one without water.' - H. Auden"
+    },
+
+	{
+        "name": "Royal Court of Tiébélé",
+        "isWonder": true,
+	"gold" : 2,
+	"food": 2,
+	"greatPersonPoints": { "Great General": 2 },
+        "uniques": ["[+2 Culture] from [Quarry] tiles [in this city]", "[+1 Culture] from every specialist [in capital]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steel",
+        "quote": "'Even in the mud and scum of things, something always, always sings' - Ralph Waldo Emerson"
+    },
+
+	{
+        "name": "Shwedagon Paya",
+        "isWonder": true,
+	"culture" : 1,
+	"faith" : 3,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+3 Faith] from [Gold Ore] tiles [in this city]","[+2 Gold] from every [Artist]","[+2 Gold] from every [Engineer]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Metal Casting",
+        "quote": "'Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.' - Siddharta Guatama"
+    },
+
+	{
+        "name": "Stone Town",
+        "isWonder": true,
+	"culture" : 1,
+	"gold" : 4,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["[+1 Gold] per [1] population [in this city]","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Compass",
+        "quote": "'A cornered fox is more dangerous than a jackal!' - Gray Fox, Metal Gear Solid"
+    },
+
+	{
+        "name": "Thermae Antoninianae",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [ "All newly-trained [Worker] units [in all cities] receive the [Grand Aqueduct] promotion","[Worker] units gain the [Grand Aqueduct] promotion", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Machinery",
+        "quote": "'Every man has a right to a Saturday night bath.' - Lyndon B. Johnson"
+    },
+
+	{
+        "name": "Tōdai-ji",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+2 Faith] from [Sheep] tiles [in this city]","[+2 Faith] from [Cattle] tiles [in this city]","[+2 Faith] from [Horses] tiles [in this city]", "Must have an owned [Pasture] within [3] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Metal Casting",
+        "quote": "'Mankind have love, animals have affection. The harmonious and beautiful world is revealed.' - Siddharta Guatama"
+    },
+
+	{
+        "name": "Ulugh Beg's Madrasa",
+        "isWonder": true,
+        "uniques": ["[+1 Science] from each Trade Route","[+1 Science, +2 Faith] from every [Observatory]","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steel",
+        "quote": "'It is the duty of every true Muslim, man and woman, to strive after knowledge.' - Inscription on the Gate of Bukhara"
+    },
+
+	{
+        "name": "University of Sankore",
+        "isWonder": true,
+	"science" : 1,
+	"greatPersonPoints": { "Great Scientist": 3 },
+        "uniques": [ "[+3 Science, +2 Gold] from each Trade Route", "Gain a free [University] [in this city]", "Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Guilds",
+        "quote": "'Upon the education of the people of this country the fate of this country depends' - Benjamin Disraeli"
+    },
+
+	{
+        "name": "Westminster Abbey",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+	"uniqueText": "[+4 Culture] for every Policy Tree started \nProvides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>",
+        "uniques": ["[+4 Culture] <after adopting [Tradition]>","[+4 Culture] <after adopting [Liberty]>","[+4 Culture] <after adopting [Honor]>","[+4 Culture] <after adopting [Piety]>","[+4 Culture] <after adopting [Commerce]>","[+4 Culture] <after adopting [Rationalism]>","[+4 Culture] <after adopting [Order]>","[+4 Culture] <after adopting [Freedom]>","[+4 Culture] <after adopting [Autocracy]>","[+4 Culture] <after adopting [Patronage]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Chivalry",
+        "quote": "'The only difference between the saint and the sinner is that every saint has a past, and every sinner has a future.' - Oscar Wilde"
+    },
+
+	{
+        "name": "Yellow Crane Tower",
+        "isWonder": true,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Scientist": 2 },
+        "uniques": ["Free Great Person", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Education",
+        "quote": "'The yellow crane has long since gone away, All that here remains is yellow crane tower. The yellow crane once gone does not return, White clouds drift slowly for a thousand years.' - Cui Hao"
+    },
+
+	// Renaissance
+	{
+        "name": "Aït Benhaddou",
+        "isWonder": true,
+	"gold" : 10,
+	"culture" : 2,
+	"cityStrength": 10,
+        "cityHealth": 75,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Banking",
+        "quote": "'What makes the desert beautiful is that somewhere it hides a well' - Antoine de Saint-Exupery"
+    },
+
+	{
+        "name": "Amphawa Floating Market",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": ["[+1 Gold] from [resource] tiles [in this city]","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Banking",
+        "quote": "'You can't be unhappy in the middle of a big, beautiful river' - Jim Harrison"
+    },
+
+	{
+        "name": "Buda Castle",
+        "isWonder": true,
+	"culture" : 2,
+	"gold" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+1 Food] from [Farm] tiles [in this city]",
+		"[+1 Food] from [Fishing Boats] tiles [in this city]",
+		"[+1 Production] from [Quarry] tiles [in this city]",
+		"[+1 Production] from [Mine] tiles [in this city]",
+		"[+1 Production] from [Lumber mill] tiles [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[+1 Gold] from [Plantation] tiles [in this city]",
+		"[+1 Gold] from [Camp] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"Must be next to [River]",
+		"Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Architecture",
+        "quote": "'For there is but one essential justice which cements society, and one law which establishes this justice. This law is right reason, which is the true rule of all commandments and prohibitions. Whoever neglects this law, whether written or unwritten, is necessarily unjust and wicked.' - Marcus Tullius Cicero"
+    },
+
+	{
+        "name": "Changdeokgung",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+100]% Great Person generation [in this city]","[+1 Science] per [3] population [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Printing Press",
+        "quote": "'If the people prosper, how can the king not prosper with them? And if the people do not prosper, how may the king prosper without them?' - Sejong the Great"
+    },
+
+	{
+        "name": "Elmina Castle",
+        "isWonder": true,
+	"gold" : 2,
+	"production" : 4,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": ["[2] free [Triangular Trade Ship] units appear","[+6 Culture] <starting from the [Atomic era]>","Must be next to [Coast]", "Only available <in cities without a [Palace]>","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Economics",
+        "quote": "'Prepare for your death, stranger. Time doesn't occur to the king.' - Bossa Ahadee, Cobra Verde"
+    },
+
+	{
+        "name": "Gripsholm Castle",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+2 Food] from [Lakes] tiles [in all cities]","[+1] population [in all cities]","Must be next to [Fresh Water]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Printing Press",
+        "quote": "'War is not a river, or a lake, but an ocean of all that is evil' - Gustav Adolphus"
+    },
+
+	{
+        "name": "Haji Ali Dargah",
+        "isWonder": true,
+	"faith" : 3,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+20]% [Gold] from Trade Routes","Must be next to [Coast]", "[+2 Gold] from [Fishing Boats] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Navigation",
+        "quote": "'Someday, after mastering the winds, the waves, the tides and gravity, we shall harness for God the energies of love, and then, for a second time in the history of the world, man will have discovered fire.' - Pierre Teilhard de Chardin"
+    },
+
+	{
+        "name": "Hawa Mahal",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 3 },
+        "uniques": ["Free [Great Engineer] appears", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Architecture",
+        "quote": "'Wisdom sails with wind and time' - John Florio"
+    },
+		{
+		"name": "[Hawa Mahal] [Theming Bonus]",
+		"requiredBuilding": "Hawa Mahal",
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Only available <in cities with a [Hawa Mahal]> <hidden from users>",
+			"Only available <in cities with a [[Hawa Mahal] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Hawa Mahal] [Great Work of Art] 2]> <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Provides [2] [Tourism] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
+			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+		{
+        "name": "[Hawa Mahal] [Great Work of Art] 1",
+		"requiredBuilding": "Museum",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Hawa Mahal]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+	{
+        "name": "[Hawa Mahal] [Great Work of Art] 2",
+		"requiredBuilding": "Hawa Mahal",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Hawa Mahal]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+		
+
+	{
+        "name": "Harmandir Sahib",
+        "isWonder": true,
+	"cityStrength": 5,
+        "cityHealth": 85,
+	"faith" : 4,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+5 Culture] from every [Merchant]", "Must be on [Fresh Water]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Metallurgy",
+        "quote": "'The Giver of peace is eternally blissful' - Sri Guru Granth Sahib"
+    },
+
+	{
+        "name": "Kronborg",
+        "isWonder": true,
+	"culture" : 2,
+	"cityStrength": 10,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": ["Free [Caravel] appears","[+15]% [Gold] from Trade Routes","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Astronomy",
+        "quote": "'The cure for anything is salt water: sweat, tears or the sea.' - Karen Blixen"
+    },
+
+	{
+        "name": "Pu'ukohola Heiau",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [, "[+3 Faith] from [Fishing Boats] tiles [in this city]", "New [Military] units start with [15] XP [in this city]", "All newly-trained [Land] units [in this city] receive the [Amphibious] promotion","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Astronomy",
+        "quote": "'A heavenly nature; an earthly nature.' - King Kamehameha I"
+    },
+
+	{
+        "name": "Rova of Antananarivo",
+        "isWonder": true,
+	"culture" : 1,
+	"cityStrength": 15,
+        "cityHealth": 60,
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": ["[+15]% [Production] [in all cities] <for [5] turns> <upon entering a Golden Age>", "Must be next to [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Chemistry",
+        "quote": "'The walls between art and engineering exist only in our minds' - Theo Jansen"
+    },
+
+	{
+        "name": "Santa Maria del Fiore",
+        "isWonder": true,
+	"faith" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+1 Culture] per [2] population [in this city]","[+1 Faith] from every specialist [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Architecture",
+        "quote": "'Life well spent is long' - Leonardo da Vinci"
+    },
+
+	{
+        "name": "Santa Maria delle Grazie",
+        "isWonder": true,
+	"happiness" : 5,
+	"faith" : 3,
+	"greatPersonPoints": { "Great Artist": 2 },
+	"specialistSlots": {"Artist": 1},
+        "requiredTech": "Printing Press",
+        "uniques": ["Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"]
+        "quote": "'Once you have taken flight, \nYou'll decide, \nGaze towards the sky, you'll know that \nThat is where your heart will feel at home' - Leonardo da Vinci, Sogno di Volare"
+    },
+		{
+		"name": "[Santa Maria delle Grazie] [Theming Bonus]",
+		"requiredBuilding": "Santa Maria delle Grazie",
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Only available <in cities with a [Santa Maria delle Grazie]> <hidden from users>",
+			"Only available <in cities with a [[Santa Maria delle Grazie] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Santa Maria delle Grazie] [Great Work of Art] 2]> <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Provides [2] [Tourism] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
+			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+		{
+        "name": "[Santa Maria delle Grazie] [Great Work of Art] 1",
+		"requiredBuilding": "Santa Maria delle Grazie",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Santa Maria delle Grazie]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+	{
+        "name": "[Santa Maria delle Grazie] [Great Work of Art] 2",
+		"requiredBuilding": "Santa Maria delle Grazie",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Santa Maria delle Grazie]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+
+	{
+        "name": "The Golden Pavilion",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["[+1 Gold] per [2] population [in this city]","[+100]% Great Person generation [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Banking",
+        "quote": "'A book holds a house of gold' - Chinese Proverb"
+    },
+
+	{
+        "name": "Tlachihualtepetl", //Production bonus is broken
+        "isWonder": true,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+2 Culture, +2 Faith] from [Hill] tiles [in this city]","Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Acoustics",
+        "quote": "'You have graciously arrived, you have known pain, you have known weariness, now come on earth, take your rest, enter into your palace, rest your limbs; may our lords come on earth' - Montezuma II"
+    },
+
+	{
+        "name": "Tomb of Humayun",
+        "isWonder": true,
+	"faith" : 2,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["Gain a free [Garden] [in this city]", "[+3 Faith] from each Trade Route", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Acoustics",
+        "quote": "'His name meant 'the Lucky', there is no king in the history to be named as wrong as Humayun.' - Stanley Lane-Poole"
+    },
+
+	{
+        "name": "Topkapı Palace",
+        "isWonder": true,
+	"culture" : 2,
+	"happiness" : 3,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["[+1 Faith] from every [Barracks]","[+1 Faith] from every [Armory]","[+1 Faith] from every [Military Academy]","[+1 Faith] from every [Walls]","[+1 Faith] from every [Castle]","[+1 Faith] from every [Arsenal]","[+1 Faith] from every [Military Base]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Gunpowder",
+        "quote": "'If the Earth was a single state, Istanbul will be its capital' - Napoleon Bonaparte"
+    },
+
+	{
+        "name": "Torre del Oro",
+        "isWonder": true,
+	"culture" : 2,
+	"gold" : 5,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["[+20]% [Gold] from Trade Routes","Gain a free [Seaport] [in this city]","Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Navigation",
+        "quote": "'Here, then, on a sand bank washed once by every high tide, but now joined to the mainland as so unromantic a feature as the gas works, a tower.' - Walter Crum Watson"
+    },
+
+	{
+        "name": "Uraniborg",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["Gain a free [Observatory] [in this city]", "[+1 Science] from every [Improvement] <with [3] to [6] neighboring [Coast] tiles>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Gunpowder",
+        "quote": "'Let me not seem to have lived in vain' - Tycho Brahé"
+    },
+
+	{
+        "name": "Wat Arun",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Artist": 2 },
+        "uniques": ["[+2 Faith] from [River] tiles [in this city]","Must be next to [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Economics",
+        "quote": "'No man ever steps in the same river twice, for it's not the same river and he's not the same man.' - Heraclitus" 
+    },
+
+	//Industrial Era
+
+	{
+        "name": "Avenue Habib Bourguiba",
+        "isWonder": true,
+	"culture" : 2,
+	"gold" : 5,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["Gain a free [Stock Exchange] [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steam Power",
+        "quote": "'Colonialism is the massive fog that has clouded our imaginations regarding who we could be, excised our memories of who we once were, and numbed our understanding of our current existence.' - Waziyatawin"
+    },
+
+	{
+        "name": "Casa Rosada",
+        "isWonder": true,
+	"cityStrength": 15,
+        "cityHealth": 75,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["[+2 Culture] from [Pasture] tiles [in this city]","Gain a free [Museum] [in this city]", "Must have an owned [Pasture] within [3] tiles","Unavailable <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Rifling",
+        "quote": "'The revolution is not an apple that falls when it is ripe. You have to make it fall' - Che Guevara"
+    },
+
+    {
+		"name": "Casa Rosada (Nobles and Merchants)",
+		"culture": 3,
+		"happiness": 2,
+		"isWonder": true,
+		"uniques": ["[+1 Gold, +2 Food] from [Pasture] tiles [in all cities]", "Provides [1] [Tourism]", "Provides [2] [Tourism] <after discovering [Flight]>", "Unavailable <if [Nobles and Merchants] is not enabled>"],
+		"requiredTech": "Fertilizer",
+		"quote": "'In government, one actress is enough.' - Evita Peron"
+	},
+
+	{
+        "name": "Citadelle Laferrière",
+        "isWonder": true,
+	"cityStrength": 30,
+        "cityHealth": 40,
+	"happiness": 1,
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": ["All newly-trained [Melee] units [in this city] receive the [Break the Chains] promotion", "Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Rifling",
+        "quote": "'The revolution is not an apple that falls when it is ripe. You have to make it fall' - Che Guevara"
+    },
+
+	{
+        "name": "Cologne Cathedral",
+        "isWonder": true,
+	"culture" : 3,
+	"faith" : 2,
+	"greatPersonPoints": { "Great Engineer": 3 },
+        "uniques": ["Empire enters golden age", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steam Power",
+        "quote": "'Peace is not just the absence of war. Like a cathedral, peace must be constructed patiently and with unshakable faith.' - Pope John Paul II"
+    },
+
+	{
+        "name": "Democracy Monument",
+        "isWonder": true,
+        "uniques": ["[+15]% [Production] [in this city] <after adopting [Order]>","[+15 Culture] [in this city] <after adopting [Autocracy]>","[+15 Science] [in this city] <after adopting [Freedom]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Electricity",
+        "quote": "'Elections belong to the people. It's their decision. If they decide to turn their back on the fire and burn their behinds, then they will just have to sit on their blisters.' - Abraham Lincoln"
+    },
+
+	{
+        "name": "La Maestranza",
+        "isWonder": true,
+	"culture" : 2,
+	"happiness" : 5,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": ["[+3 Happiness] from [Cattle] tiles [in this city]", "Must have an owned [Cattle] within [3] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Archaeology",
+        "quote": "'Not only does the bull attacks his enemies with curved horn, but also the sheep, when harmed fights back.' - Propertius"
+    },
+
+	{
+        "name": "Laxey Wheel",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+1 Culture, +1 Happiness] from [Mine] tiles [in this city]", "Must be on [Hill]", "Only available <in cities without a [Factory]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Industrialization",
+        "quote": "'The waterwheel accepts water and turns and gives it away, weeping.' - Rumi"
+    },
+
+	{
+        "name": "Mount Rushmore",
+        "isWonder": true,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": ["[-35]% Gold cost of acquiring tiles [in all cities]","[-15]% unhappiness from the number of cities", "Must have an owned [Mountain] within [3] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Dynamite",
+        "quote": "'Who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.' - Benjamin Franklin"
+    },
+
+	{
+        "name": "Mourisco Pavilion",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["[+5 Food] from each Trade Route",  "[+2 Food] from every specialist [in all cities]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Scientific Theory",
+        "quote": "'Healing is a matter of time, but it is sometimes also a matter of opportunity' - Hippocrates"
+    },
+
+	{
+        "name": "Országház",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": ["Allied City-States provide [Culture] equal to [25]% of what they produce for themselves",],
+        "requiredTech": "Biology",
+        "quote": "'In art there are only fast or slow developments. Essentially it is a matter of evolution, not revolution' - Bela Bartok"
+    },
+
+	{
+        "name": "Pena National Palace",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+6 Culture] from every [Garden]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Steam Power",
+        "quote": "'Grain by grain, a loaf. Stone upon stone, a palace.' - George Bernard Shaw"
+    },
+
+	{
+        "name": "Sagrada Familia",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["Gain a free [Cathedral] [in this city]","[+2 Happiness] from every [Shrine]","[+2 Happiness] from every [Temple]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Biology",
+        "quote": "'The straight line belongs to Man. The curved line belongs to God' - Antonio Gaudi"
+    },
+
+	{
+        "name": "Smithsonian Institution",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["[+10]% [Science]","Gain a free [Museum] [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Scientific Theory",
+        "quote": "'The best prophet of the future is the past' - Lord George Gordon Bryon"
+    },
+		{
+        "name": "[Smithsonian Institution] [Great Work of Art]",
+		"requiredBuilding": "Smithsonian Institution",
+        "science": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
+			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+            "Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+			"Only available <in cities with a [Smithsonian Institution]> <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>"
+        ],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Artifact", "link": "Resource/Artifact" }
+		]
+    },
+
+	{
+        "name": "Tahrir Square",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["[+10 Happiness] <after adopting [Autocracy]>","[+10 Happiness] <after adopting [Order]>","[+10 Happiness] <after adopting [Freedom]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>",],
+        "requiredTech": "Archaeology",
+        "quote": "'When dictatorship is a fact, revolution becomes a right.' - Victor Hugo"
+    },
+
+	{
+        "name": "Te Tii Marae",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["[+3 Happiness] from every [Courthouse]", "Only available <in cities without a [Palace]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Military Science",
+        "quote": "'Let your valor rise! Let your valor rage! \nLet us ward off these haunted hands \nto protect our wives and children!' - Te Rauparaha, Ka Mate"
+    },
+
+	{
+        "name": "The Ice House",
+        "isWonder": true,
+	"culture" : 2,
+	"science": 1,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": ["[+150]% [Culture] [in this city] <for [10] turns> <(modified by game speed)>", "Must be next to [Tundra]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Dynamite",
+        "quote": "'Some say the world will end in fire, some say in ice' - Robert Frost"
+    },
+
+	{
+        "name": "Trafalgar Square",
+        "isWonder": true,
+	"gold" : 4,
+	"happiness" : 5,
+	"culture": 4,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "requiredTech": "Steam Power",
+        "uniques": ["Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "quote": "'Time is everything; five minutes make the difference between victory and defeat.' - Lord Horatio Nelson"
+    },
+
+	{
+        "name": "Virgin of El Panecillo",
+        "isWonder": true,
+	"culture" : 2,
+	"faith" : 2,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": ["[+1 Production, +3 Faith] from each Trade Route", "Must have an owned [Hill] within [2] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Dynamite",
+        "quote": "'He is no fool who gives what he cannot keep to gain that which he cannot lose.' - Elisabeth Elliot"
+    },
+
+	{
+        "name": "Wat Pho",
+        "isWonder": true,
+	"faith" : 2,
+	"greatPersonPoints": { "Great Artist": 1 },
+	"uniques": ["[+50]% [Faith]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Archaeology",
+        "quote": "'Buddhism teaches one to embrace change.' - Koo Stark"
+    },
+
+	{
+        "name": "Wat Phra Kaew",
+        "isWonder": true,
+	"science" : 3,
+	"greatPersonPoints": { "Great Scientist": 1 },
+	"uniques": ["[+10]% [Science]","[+2 Science] from every [Shrine]","[+2 Science] from every [Temple]","[+2 Science] from every [Cathedral]","[+2 Science] from every [Mosque]","[+2 Science] from every [Pagoda]","[+2 Science] from every [Monestary]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Archaeology",
+        "quote": "'Every morning we are born again. What we do today is what matters most.' - Siddharta Guatama"
+    },
+
+	// Modern Era
+
+	{
+        "name": "Anıtkabir",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great General": 2 },
+	"uniques": [ "Gain [500] [Science] <upon expending a [Great Person] unit>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ballistics",
+        "quote": "'If one day, my words are against science, choose science' - Mustafa Kemal Atatürk"
+	},
+
+	{
+        "name": "Bletchley Park",
+        "isWonder": true,
+	"percentStatBonus": {"science": 10},
+	"greatPersonPoints": { "Great Scientist": 2},
+	"uniques": ["Promotes all spies [1] time(s)","[+20]% spy effectiveness [in all cities]", "Only available <when at war>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Radio",
+        "quote": "'Espionage and counterespionage go together like horse and carriage' - Charles McCarry"
+	},
+	
+	{
+        "name": "Brooklyn Bridge",
+        "isWonder": true,
+	"culture" : 2,
+	"gold" : 2,
+	"greatPersonPoints": { "Great Engineer": 2 },
+	"uniques": ["Empire enters golden age", "[+50]% Great Person generation [in this city]","Must be on [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Railroads",
+        "quote": "'Scientists are people who build the Brooklyn Bridge and then buy it.' - Willian F. Buckley Jr."
+	},
+
+	{
+        "name": "Catedral de Sal",
+        "isWonder": true,
+	"culture" : 2,
+	"faith" : 3,
+	"greatPersonPoints": { "Great Engineer": 2 },
+	"uniques": ["[+3 Culture] from every [Salt]", "Must have an owned [Salt] within [3] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ballistics",
+        "quote": "'Let there be work, bread, water and salt for all.' - Nelson Mandela"
+	},
+
+	{
+        "name": "Darjeeling Himalayan Railway",
+        "isWonder": true,
+	"happiness" : 2,
+	"culture" : 2,
+	"gold" : 2,
+	"greatPersonPoints": { "Great Engineer": 1},
+	"uniques": ["Provides [3] [Green Tea Leaves]","Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Railroads",
+        "quote": "'There are many paths to the top of the mountain, but the view is always the same.' - Chinese Proverb"
+	},
+
+	{
+        "name": "Delta Works",
+        "isWonder": true,
+	"gold" : 4,
+	"greatPersonPoints": { "Great Engineer": 3},
+	"uniques": ["[+1 Food] from every [Farm] <with [1] to [3] neighboring [Coast] tiles>","[-1 Production] from [River] tiles [in this city]","Must be next to [Coast]", "Unavailable <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Plastics",
+        "quote": "'The wise man makes an island of himself that no flood can overwhelm.' - Siddharta Guatama"
+	},
+
+	{
+		"name": "Delta Works (Nobles and Merchants)",
+		"maintenance": 2,
+		"isWonder": true,
+		"food": 1,
+		"production": 4,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["Must be on [Coastal]", "Must be on [River]", "[+1 Food] from [River] tiles [in your cities]", "Unavailable <if [Nobles and Merchants] is not enabled>"],
+		"quote": "'God made the world but the Dutch made the Netherlands' - René Descartes",
+		"requiredTech": "Replaceable Parts"
+	},
+
+	{
+        "name": "Empire State Building",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 2},
+	"uniques": ["[+33]% [Gold] from Trade Routes","[+8 Gold] <after discovering [Radar]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Electronics",
+        "quote": "'The stars which shone over Babylon and the stable in Bethlehem still shine as brightly over the Empire State Building and your front yard today.' - Linda Goodman"
+	},
+
+	{
+        "name": "Escadaria Selarón",
+        "isWonder": true,
+	"culture" : 5,
+	"happiness" : 3,
+	"uniques": ["[+6 Gold] from every [Artist]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Replaceable Parts",
+        "quote": "'Stairs are climbed step by step' - Turkish Proverb"
+	},
+
+	{
+        "name": "Hollywood",
+        "isWonder": true,
+	"culture" : 8,
+	"gold" : 8,
+	"happiness" : 4,
+	"uniques": ["[+1 Happiness] from every [Theatre]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Electronics",
+        "quote": "'If I fail, the film industry writes me off as another statistic. If I succeed, they pay me a million bucks to fly out to Hollywood and fart.' - George A. Romero"
+	},
+		{
+		"name": "[Hollywood] [Theming Bonus]",
+		"requiredBuilding": "Hollywood",
+		"cost": 1,
+		"culture": 3,
+		"uniques": [
+			"Only available <in cities with a [Hollywood]> <hidden from users>",
+			"Only available <in cities with a [[Hollywood] [Great Work of Music] 1]> <hidden from users>",
+			"Only available <in cities with a [[Hollywood] [Great Work of Music] 2]> <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Provides [3] [Tourism]",
+			"Provides [3] [Tourism] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"[+3 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
+			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
+			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "[Hollywood] [Great Work of Music] 1",
+		"requiredBuilding": "Hollywood",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Music]",
+			"Unavailable <without [Great Work of Music]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Only available <in cities with a [Hollywood]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>",
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "[Hollywood] [Great Work of Music] 2",
+		"requiredBuilding": "Hollywood",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Music]",
+			"Unavailable <without [Great Work of Music]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Only available <in cities with a [Hollywood]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <if [Civ V Brave New World] is enabled> <hidden from users>",
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+
+	{
+        "name": "Itaipu Dam",
+        "isWonder": true,
+	"happiness" : 3,
+	"greatPersonPoints": { "Great Engineer": 3},
+	"uniques": ["[+1 Production] from [River] tiles [in this city]","Must be on [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Radio",
+        "quote": "'Alone we can do so little; together we can do so much.' - Helen Keller"
+	},
+
+	{
+        "name": "Kansai International Airport",
+        "isWonder": true,
+	"greatPersonPoints": { "Great Engineer": 3 },
+        "uniques": [ "Creates a [KIX Airport] improvement on a specific tile", "Must be next to [Coast]", "Provides [4] [Tourism] <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Flight",
+        "quote": "'All our sweetest hours fly fastest' - Virgil"
+    },
+
+	{
+        "name": "OPEC",
+        "isWonder": true,
+	"gold" : 2,
+	"greatPersonPoints": { "Great Merchant": 1},
+	"uniques": ["[+3 Gold] from [Oil] tiles [in all cities]","Must have an owned [Oil well] within [2] tiles","Provides [3] [Oil]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Combustion",
+        "quote": "'Formula for success: rise early, work hard, strike oil.' - Paul Getty"
+	},
+
+	{
+        "name": "Pearl Monument",
+        "isWonder": true,
+	"culture" : 4,
+	"gold" : 4,
+	"greatPersonPoints": { "Great Engineer": 2},
+	"uniques": ["Free [Great Merchant] appears", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Electronics",
+        "quote": "'For truth is precious and divine, too rich a pearl for carnal swine' - Samuel Butler"
+	},
+
+	{
+        "name": "Rockefeller Center",
+        "isWonder": true,
+	"happiness" : 3,
+	"gold" : 5,
+	"greatPersonPoints": { "Great Merchant": 2},
+	"uniques": ["[-50]% City-State Influence degradation", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Replaceable Parts",
+        "quote": "'Don't be afraid to give up the good to go to the great' - John D. Rockefeller"
+	},
+
+	{
+        "name": "Rock 'n' Roll",
+        "isWonder": true,
+	"civilopediaText": [ {"text": ""}],
+	"culture" : 3,
+	"happiness" : 3,
+	"greatPersonPoints": { "Great Artist": 1 },
+        "uniques": [  "Provides [4] [Hit Singles]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Radar",
+        "quote": "'And then she turns on that New York station, you know her life was saved by rock and roll.' - The Velvet Underground, Elvis Presley"
+    },
+
+	//Atomic Era
+
+	{
+        "name": "Al Wusta Oryx Sanctuary",
+        "isWonder": true,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Merchant": 1 },
+        "uniques": [ "[+3 Happiness] from [Desert] tiles [in this city]", "[-10 Gold, -10 Production, -10 Happiness, -10 Food, -10 Faith, -10 Science, -10 Culture] from [Oil well] tiles [in this city]","Must be next to [Desert]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ecology",
+        "quote": "'After everything that's happened, how can the world still be so beautiful? Because it is.' - Margaret Atwood"
+    },
+	
+	{
+        "name": "Arecibo Observatory",
+        "isWonder": true,
+	"science" : 4,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Scientist": 3},
+	"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]","Free [Great Scientist] appears", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Radar",
+        "quote": "'11 11 11 11 11 01 11 11 01 11 01 11 10 11 11 01' - DNA double helix, Arecibo Message"
+	},
+
+	{
+        "name": "Channel Tunnel",
+        "isWonder": true,
+	"gold" : 3,
+	"greatPersonPoints": { "Great Engineer": 2 },
+        "uniques": [ "[+2 Gold, +4 Production] from each Trade Route", "[+1 Production] from [Coast] tiles [in this city]", "Must be next to [Coast]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Pharmaceuticals",
+        "quote": "'Chitty-Chitty Bang Bang’s going to take us right across the English Channel to France' - Chitty-Chitty Bang-Bang"
+        },
+
+	{
+        "name": "Great Man-Made River",
+        "isWonder": true,
+	"percentStatBonus": {"food": 10},
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "[+1 Food] from [non-[Fresh Water]] tiles [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Atomic Theory",
+        "quote": "'All right, but apart from the sanitation, medicine, education, wine, public order, irrigation, roads, the fresh water system and public health, what have the Romans ever done for us?' - John Cleese"
+    },
+
+	{
+        "name": "Internet",
+        "isWonder": true,
+        "uniques": [ "Free Technology", "[+10]% [Culture] [in all cities]", "[+1 Science] per [5] population [in all cities]", "Only Availabe <if [Nobles and Merchants] is not enabled>"],
+	"greatPersonPoints": {"Great Engineer": 3},
+        "requiredTech": "Computers",
+        "quote": "'Beep... Boop... ERROR 404'",
+        },
+
+	{
+        "name": "London Eye",
+        "isWonder": true,
+	"happiness" : 5,
+	"culture" : 3,
+	"greatPersonPoints": { "Great Merchant": 1},
+	"uniques": ["[+1 Culture] per [1] population [in this city]", "Must be on [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ecology",
+        "quote": "'London goes beyond any boundary or convention. It contains every wish or word ever spoken, every action or gesture ever made, every harsh or noble statement ever expressed. It is illimitable. It is Infinite London.' - Peter Ackroyd"
+	},
+
+	{
+        "name": "Baháʼí Lotus Temple",
+        "isWonder": true,
+	"happiness" : 2,
+	"greatPersonPoints": { "Great Prophet": 3},
+	"uniques": ["[+1 Culture, +1 Faith] per [3] population [in all cities] <in cities not following a [your] religion>", "Only available <in cities not following a [your] religion>", "Provides [3] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Pharmaceuticals",
+        "quote": "'Be a breath of life to the body of humankind, a dew to the soil of the human heart, and a fruit upon the tree of humility.' - Bahahullah"
+	},
+
+	{
+        "name": "Martin Luther King Memorial",
+        "isWonder": true,
+	"happiness" : 5,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Artist": 1},
+	"uniques": [ "[+50]% Great Person generation [in all cities]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Computers",
+        "quote": "'Out of a mountain of despair, a stone of hope' - Martin Luther King Jr."
+	},
+
+	{
+        "name": "Millau Viaduct",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Engineer": 2},
+	"uniques": ["[+2] Movement <for [Land] units>","Must be on [Hill]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ecology",
+        "quote": "'The stars in the heavens sing a music, if only we had ears to hear.' - Pythagoras"
+	},
+
+	{
+        "name": "Monas Monument",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great General": 2 },
+        "uniques": [ "[+1 Happiness, +4 Culture] from every [Monument]", "[+5 Culture] in cities on [Coastal] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Nuclear Fission",
+        "quote": "'I hate imperialism. I detest colonialism. And I fear the consequences of their last bitter struggle for life.' - Sukarno"
+    },
+
+	{
+        "name": "Sky Tower",
+        "isWonder": true,
+	"culture" : 1,
+	"uniques": ["[-50]% Unhappiness from [Population] [in all cities]","[+1 Gold] per [4] population [in this city]","Gain a free [Broadcast Tower] [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Ecology",
+        "quote": "'Without rain there can be no rainbow.' - Maori Proverb"
+	},
+
+	{
+        "name": "Statue of Unity",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 3 },
+        "uniques": [ "[+10 Faith, +4 Culture] from [Landmark] tiles [in all cities]",  "Gain a free [Operation Patel-Gandhi] [in this city] <hidden from users>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Nuclear Fission",
+        "quote": "'India is the cradle of human race, birthplace of human speech, mother of history, the grandmother of legend, & great grand mother of tradition' - Mark Twain"
+    },
+
+	{
+        "name": "Taipei 101",
+        "isWonder": true,
+	"gold" : 10,
+	"greatPersonPoints": { "Great Merchant": 3},
+	"uniques": ["[+1 Science] per [1] population [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Computers",
+        "quote": "'The road of excess leads to the palace of wisdom.' - William Blake"
+	},
+
+	{
+        "name": "The Memphis Pyramid",
+        "isWonder": true,
+		"gold" : 2,
+		"happiness": 2,
+		"greatPersonPoints": { "Great Merchant": 4},
+		"uniques": ["[+1 Food, +1 Culture] from [Fish] tiles [in this city]", "[+2 Culture, +2 Food] from [{unimproved} {Land}] tiles [in all cities]", "Must be on [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Computers",
+        "quote": "'We all live downstream.' - Bass Pro Shops"
+	},
+
+	{
+        "name": "The Motherland Calls",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great General": 3 },
+        "uniques": [ "[+1 Happiness] per [4] population [in this city] <when not at war>", "[+50]% Production when constructing [Melee] units [in this city] <when at war>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Combined Arms",
+        "quote": "'He did what heroes do after their work is accomplished; he died.' - Leo Tolstoy"
+    },
+
+	{
+        "name": "Tomb of the Unknown Soldier",
+        "isWonder": true,
+	"happiness" : 2,
+	"greatPersonPoints": { "Great General": 1 },
+        "uniques": [ "All newly-trained [Military] units [in this city] receive the [Lest We Forget] promotion", "New [Military] units start with [15] XP [in this city]", "Only available <when not at war>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Combined Arms",
+        "quote": "'The old Lie: Dulce et decorum est, pro patria mori' - Wilfred Owen"
+    },
+
+	{
+        "name": "White Sands Missile Range",
+        "isWonder": true,
+	"gold" : 10,
+	"greatPersonPoints": { "Great Scientist": 2},
+	"uniques": ["[+2] Range <for [Air] units>","[4] free [Guided Missile] units appear", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Rocketry",
+        "quote": "'What is pride? A rocket that emulates the stars.' - William Wordsworth"
+	},
+
+	//Information Era
+
+	{
+        "name": "Abraj al Bait Towers",
+        "isWonder": true,
+	"gold" : 20,
+	"faith" : 5,
+	"uniques": ["[+3 Culture] from [resource] tiles [in this city]", "Must have an owned [Holy site] within [3] tiles", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Globalization",
+        "quote": "'A good word is like a good tree whose root is firmly fixed and whose top is in the sky' - Qu'ran"
+	},
+
+	{
+        "name": "African Renaissance Monument",
+        "isWonder": true,
+	"gold" : 2,
+	"greatPersonPoints": { "Great Artist": 3 },
+        "uniques": [ "[+1 Production] per [1] population [in this city]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Mobile Tactics",
+        "quote": "'Every State is a despotism, be the despot one or many.' - Max Stirner"
+    },
+
+	{
+        "name": "ISS",
+        "isWonder": true,
+	"science" : 3,
+	"gold" : 3,
+	"percentStatBonus": {"culture": 20},
+	"greatPersonPoints": { "Great Merchant": 3 },
+	"greatPersonPoints": { "Great Artist": 3 },
+        "uniques": [  "[+2 Science] from [Great Improvement] tiles [in all cities]", "[+50]% Production when constructing [Spaceship part] units [in this city]", "Only available <in cities without a [Mir]>","Only available <in cities without a [Skylab]>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Globalization",
+        "quote": "'In space, we're all people from Earth' - Sunita Williams"
+    },
+
+	{
+        "name": "Mir",
+        "isWonder": true,
+	"science" : 4,
+	"percentStatBonus": {"production": 10},
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "Free [Great Scientist] appears",  "[+50]% Production when constructing [Spaceship part] units [in this city]", "Only available <in cities without a [Skylab]>","Only available <in cities without a [ISS]>","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Satellites",
+        "quote": "'Everyone, red state, blue state, everyone supports space exploration' - Bill Nye"
+    },
+
+	{
+        "name": "Mother Ukraine",
+        "isWonder": true,
+	"culture" : 1,
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "[+10 Science] [in all cities] <with a garrison>", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Lasers",
+        "quote": "'Life did not stop, and one had to live.' - Leo Tolstoy"
+    },
+
+	{
+        "name": "Oriental Pearl Tower",
+        "isWonder": true,
+	"culture" : 1,
+	"uniques": ["[+10]% Great Person generation [in all cities]","[+10]% [Culture]", "Must be on [River]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Telecommunications",
+        "quote": "'I am not afraid of tomorrow, for I have seen today and I love today' - William Allen White"
+	},
+
+	{
+        "name": "Palm Jumeirah",
+        "isWonder": true,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Engineer": 2},
+	"uniques": ["[+20 Gold] from [Atoll] tiles [in this city]", "Must have an owned [Atoll] within [3] tiles","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Globalization",
+        "quote": "'To sit in the shade on a fine day and look upon verdure is the most perfect refreshment.' - Jane Austen"
+	},
+
+	{
+        "name": "Petronas Towers",
+        "isWonder": true,
+	"culture" : 1,
+	"gold" : 1,
+	"faith" : 1,
+	"greatPersonPoints": { "Great Merchant": 1},
+	"uniques": ["Free Great Person", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Robotics",
+        "quote": "'Like most animals, we're wired to associate height with power.' - Helen Fisher"
+	},
+
+	{
+        "name": "SETI",
+        "isWonder": true,
+	"science" : 2,
+	"greatPersonPoints": { "Great Scientist": 1},
+	"uniques": ["[+5 Science, +5 Faith] from [Land] tiles without [Improvement] [in this city]", "[+10]% Production when constructing [Spaceship part] units [in this city]","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Lasers",
+        "quote": "'The universe is a pretty big place. If it's just us, seems like an awful waste of space' - Carl Sagan"
+	},
+
+	{
+        "name": "Shanghai World Financial Center",
+        "isWonder": true,
+	"gold" : 20,
+	"culture" : 2,
+	"greatPersonPoints": { "Great Merchant": 4},
+	"uniques": [ "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>" ]
+        "requiredTech": "Globalization",
+        "quote": "'We have the best government money can buy' - Mark Twain"
+	},
+
+	{
+        "name": "Skylab",
+        "isWonder": true,
+	"science" : 4,
+	"percentStatBonus": {"science": 10},
+	"greatPersonPoints": { "Great Engineer": 1 },
+        "uniques": [ "Free [Great Engineer] appears",  "[+50]% Production when constructing [Spaceship part] units [in this city]", "Only available <in cities without a [Mir]>", "Only available <in cities without a [ISS]>","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Satellites",
+        "quote": "'An astronaut cannot be suspended in space and not have God in his mind and his heart.' - Yuri Gagarin"
+    },
+
+	{
+        "name": "Tokyo Sky Tree",
+        "isWonder": true,
+	"gold" : 3,
+	"culture" : 2,
+	"happiness" : 4,
+	"uniques": ["[+1 Happiness, +1 Culture] from every [Broadcast Tower]", "Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+        "requiredTech": "Telecommunications",
+        "quote": "'We all live under the same sky, but we don't all have the same horizon.' - Konrad Adenauer"
+	},
+
+	{
+        "name": "Turing Complete AI",
+        "isWonder": true,
+        "uniques": [ "Free Technology","[+10]% [Culture] [in all cities]","[+1 Production] per [5] population [in all cities]","[-4 Happiness] [in all cities]","Provides [2] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+	"greatPersonPoints": {"Great Scientist": 3},
+        "requiredTech": "Robotics",
+        "quote": "'Daisy, Daisy give me your answer do. \nI’m half crazy all for the love of you. \nIt won’t be a stylish marriage, I can’t afford a carriage. \nBut you’ll look sweet, Upon the seat, Of a bicycle made for two.' - Daisy Bell, Harry Dacre",
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Dont look here
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Please
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//It ruins the suprise
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//https://youtu.be/RU8Ch811jQc?si=5KePnZQtgfxtl5T2
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+{
+        "name": "Operation Patel-Gandhi",
+	"culture" : 1,
+	"cost" : 1869,
+        "uniques": [ "Unbuildable", "Unavailable <in cities without a [Statue of Unity]>", "Will not be displayed in Civilopedia", "Provides [1] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+    },
+
+
+
+
+	
+
+{
+        "name": "Project Smiling Buddha",
+	"faith" : 2,
+	"cost" : 1500,
+	"requiredBuilding": "Operation Patel-Gandhi",
+        "uniques": [  "Comment [Together, our people stand united, ready to face the brave new world infront of us. As Gods and Kings had their rise and fall, they all tried to secure their right to rule and attempt to control the crossroads of the world. But these warlords failed to look beyond the sword, and turned a blind eye to the gathering storm on the horizon. Our civilization may suffer the same fate if we do not learn from the pasts mistakes. We shall unite the world under the banner of unity and acceptance, so no person shall suffer the fate of their ancestors. Our enemies will, of course, not accept this, so we must teach them with the words of the Smiling Bhudda, so they can learn of our peaceful ways!]",
+		      "Triggers a global alert upon completion", "Unavailable <in cities without a [Operation Patel-Gandhi]>", "Will not be displayed in Civilopedia", "Provides [1] [Tourism] <after discovering [Flight]> <if [Nobles and Merchants] is enabled>"],
+    },
+
+
+
+
+
+
+
+
+
+
+	
+
+
+   
+ ]
